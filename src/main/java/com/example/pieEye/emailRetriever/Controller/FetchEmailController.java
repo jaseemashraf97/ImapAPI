@@ -26,7 +26,7 @@ public class FetchEmailController {
      * @throws Exception
      */
     @PostMapping("/mails")
-    public List<MailStructure> login(@RequestParam("email") String mailId, @RequestParam("Pass") String pass) throws Exception
+    public List<MailStructure> login(@RequestParam("email") String mailId, @RequestParam("password") String pass) throws Exception
     {
        return mailService.fetchallMails(mailId,pass);
     }
