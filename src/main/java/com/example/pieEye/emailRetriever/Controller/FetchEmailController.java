@@ -8,7 +8,6 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import javax.mail.MessagingException;
 import java.util.List;
 
-@EnableWebMvc
 @RestController
 public class FetchEmailController {
     @Autowired

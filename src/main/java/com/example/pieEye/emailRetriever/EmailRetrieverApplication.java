@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 @SpringBootApplication
-public class EmailRetrieverApplication extends SpringBootServletInitializer {
+public class EmailRetrieverApplication {
 
 
 	public static void main(String[] args) {
