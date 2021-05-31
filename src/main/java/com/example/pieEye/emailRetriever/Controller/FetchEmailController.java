@@ -4,6 +4,7 @@ import com.example.pieEye.emailRetriever.Model.MailStructure;
 import com.example.pieEye.emailRetriever.Service.MailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 import javax.mail.Message;
 import javax.mail.MessagingException;
@@ -13,6 +14,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+@EnableWebMvc
 @RestController
 public class FetchEmailController {
     @Autowired
