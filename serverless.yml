@@ -11,7 +11,7 @@ functions:
       - http:
           path: /mails
           method: post
-  getProduct:
+  fetchOneMail:
     events:
       - http:
           path: /mail/{id}
