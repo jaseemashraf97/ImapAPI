@@ -34,7 +34,7 @@ public class FetchEmailController {
     @GetMapping("/mails/{id}")
     public Object mail(@PathVariable("id") int id)
     {
-        return mailService.FetchOneMail(id);
+        return mailService.fetchOneMail(id);
     }
 
     /**

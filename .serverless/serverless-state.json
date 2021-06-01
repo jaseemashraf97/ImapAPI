@@ -197,7 +197,7 @@
           "s_*.js",
           "serverless_sdk/**"
         ],
-        "artifactDirectoryName": "serverless/demo/dev/1622470751654-2021-05-31T14:19:11.654Z"
+        "artifactDirectoryName": "serverless/demo/dev/1622475124149-2021-05-31T15:32:04.149Z"
       },
       "provider": {
         "$ref": "$[\"service\"][\"provider\"]"
@@ -209,7 +209,7 @@
     "appUid": "wGRYtgCdSVrynLsBTv"
   },
   "package": {
-    "artifactDirectoryName": "serverless/demo/dev/1622470751654-2021-05-31T14:19:11.654Z",
+    "artifactDirectoryName": "serverless/demo/dev/1622475124149-2021-05-31T15:32:04.149Z",
     "artifact": "emailRetriever-0.0.1-SNAPSHOT.jar"
   }
 }

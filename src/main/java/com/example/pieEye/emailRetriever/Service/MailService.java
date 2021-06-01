@@ -156,7 +156,7 @@ public class MailService {
      * @param index
      * @return
      */
-    public Object FetchOneMail(int index)
+    public Object fetchOneMail(int index)
     {
         if (index>=0&&index< mails.size()&&isLoggedIn())
             return mails.get(index);

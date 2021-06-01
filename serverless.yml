@@ -1,3 +1,19 @@
 org: jaseem97
 app: imap
 service: demo
+package:
+  artifact: 'target/emailRetriever-0.0.1-SNAPSHOT.jar'
+provider:
+  name: aws
+functions:
+  fetchAllMails:
+    events:
+      - http:
+          path: /mails
+          method: post
+  getProduct:
+    events:
+      - http:
+          path: /mail/{id}
+          method: get
+
