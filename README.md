@@ -1,4 +1,4 @@
-# HTTP REST API for IMAP ENABLED EMAIL SERVER
+# HTTP REST API for IMAP ENABLED EMAIL SERVER 
 
 A **HTTP REST API for IMAP Enabled Email Server** Spring boot application which accepts the credentials of Microsoft Outlook and fetch all the mails inside inbox.  
 
