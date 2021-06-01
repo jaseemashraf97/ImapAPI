@@ -6,14 +6,23 @@ package:
 provider:
   name: aws
 functions:
-  fetchAllMails:
+  loginAndFetchAllMails:
+    handler: com.example.pieEye.emailRetriever.ServerlessHandler.LoginHandler
     events:
       - http:
           path: /mails
           method: post
   fetchOneMail:
+    handler: com.example.pieEye.emailRetriever.ServerlessHandler.FetchMailHandler
     events:
       - http:
-          path: /mail/{id}
+          path: /mails/{id}
           method: get
+  logout:
+    handler: com.example.pieEye.emailRetriever.ServerlessHandler.LogoutHandler
+    events:
+      - http:
+          path: /mails/logout
+          method: get
+
 
